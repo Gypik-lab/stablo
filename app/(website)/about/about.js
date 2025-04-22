@@ -3,6 +3,12 @@ import { urlForImage } from "@/lib/sanity/image";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "CryptoLegends | NFT Card Battles",
+  description: "Play-to-Earn game with dynamic NFT cards",
+  keywords: ["NFT", "GameFi", "Blockchain Games"],
+};
+
 export default function About({ authors, settings }) {
   return (
     <Container>
