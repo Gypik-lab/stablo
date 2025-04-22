@@ -6,9 +6,9 @@ import Link from "next/link";
 export default function About({ authors, settings }) {
   return (
     <Container>
-      <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
-        About
-      </h1>
+     <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+     CryptoLegends
+     </h1>
       <div className="text-center">
         <p className="text-lg">We are a small passionate team.</p>
       </div>
