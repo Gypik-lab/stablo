@@ -10,7 +10,8 @@ export default function About({ authors, settings }) {
      CryptoLegends
      </h1>
       <div className="text-center">
-        <p className="text-lg">We are a small passionate team.</p>
+       <p className="mt-4 text-lg text-gray-300">
+       Collect and battle with dynamic NFT cards. Join the Web3 gaming revolution! </p>
       </div>
 
       <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
